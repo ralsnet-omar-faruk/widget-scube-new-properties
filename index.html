@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/rals-widget-new-proerties.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/content.css">
+    <title>新着物件 - リスト形式サンプル</title>
+</head>
+<body>
+<div class="contents">
+  <div class="sec-business" style="margin-top: 0px !important;">
+<div class="postList back-gray">
+    <div class="text-center">
+        <h3>新着物件</h3>
+    </div>
+
+    <div class="rals-widget" data-query="prop=2&sup=2000&odr=cdtd&limit=10">
+        <div class="properties-list" style="display: none">
+            <div class="property-list-items">
+                <div class="property-list-item">
+                    <a href="{detailUrl}" target="_blank" rel="noopener noreferrer" class="property-link">
+                        <span class="property-date">{registDate}</span>
+                        <span class="property-comment">{comment}</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="search-button-container">
+        <a href="https://ralsnet.example.formatline.com/property-search/" class="search-button">
+            店舗物件を検索
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+        </a>
+    </div>
+</div>
+</div>
+</div>  
+
+<script src="./assets/rals-widget-cube.js"></script>
+<script src="./assets/rals-widget-cube-config.js"></script>
+
+</body>
+</html>
+
