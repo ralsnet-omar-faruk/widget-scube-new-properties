@@ -3,7 +3,7 @@
 
     // 会社用の設定定数
     const COMPANY_CONFIG = {
-        apiBaseUrl: 'https://tenpos-ft.formatline.com/wp-json/rengodb/v1/search-properties', // APIのベースURL
+        apiBaseUrl: 'https://ralsnet.example.formatline.com/wp-json/rengodb/v1/search-properties', // APIのベースURL
         detailPageBaseUrl: 'https://ralsnet.example.formatline.com/property/', // 物件詳細ページのベースURL
         imageBaseUrl: 'https://pic.cbiz.ne.jp/pic/', // 画像のベースURL
         fallbackImageUrl: 'https://ralsnet.example.formatline.com/app/plugins/wp-rengodb/assets/img/noimg.png', // 画像がない場合のフォールバックURL
