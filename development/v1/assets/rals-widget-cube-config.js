@@ -3,10 +3,10 @@
 
     // 会社用の設定定数
     const COMPANY_CONFIG = {
-        apiBaseUrl: 'https://omar-faruk.virtual-office.rals.biz/wp-json/rengodb/v1/search-properties', // APIのベースURL
-        detailPageBaseUrl: 'https://omar-faruk.virtual-office.rals.biz/property/', // 物件詳細ページのベースURL
+        apiBaseUrl: 'https://tenpos-ft.formatline.com/wp-json/rengodb/v1/search-properties', // APIのベースURL
+        detailPageBaseUrl: 'https://tenpos-ft.formatline.com/property/', // 物件詳細ページのベースURL
         imageBaseUrl: 'https://pic.cbiz.ne.jp/pic/', // 画像のベースURL
-        fallbackImageUrl: 'https://omar-faruk.virtual-office.rals.biz/app/plugins/wp-rengodb/assets/img/noimg.png', // 画像がない場合のフォールバックURL
+        fallbackImageUrl: 'https://tenpos-ft.formatline.com/app/plugins/wp-rengodb/assets/img/noimg.png', // 画像がない場合のフォールバックURL
 
 
         // カスタムスタイル
